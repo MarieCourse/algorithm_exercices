@@ -1,5 +1,5 @@
 //FIND DES PALINDROMES
-//Exercise taken from the tutorial of [Grafikart](https://grafikart.fr/tutoriels/fonctions-2060)
+//Exercise taken from the tutorial of Grafikart: https://grafikart.fr/tutoriels/fonctions-2060
 
 /*
 The objective of this exercise is to create a function `isPalindrome()` that will return true if a word is a palindrome and false otherwise. The function will be case-insensitive.

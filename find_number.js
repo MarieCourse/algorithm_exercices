@@ -1,10 +1,13 @@
-/*TROUVER UN NOMBRE ALEATOIRE*/
-/*
-        On crée un nombre aléatoire entre 0 et 10, ensuite on demandera à l'utilisateur de deviner ce nombre avec 3 essais. Pour créer la logique on utilisera des fonctions spécifiques
+/*FIND A NUMBER*/
+//Exercise taken from the tutorial of Grafikart : https://grafikart.fr/tutoriels/fonctions-2059
 
-  Une fonction isRight(n) qui renverra un booléen si l'utilisateur à la bonne réponse ou non
-  Une fonction guess() qui permet de faire un essai, cette fonction renverra true ou false en fonction de la réponse donnée
-  */
+/*
+We generate a random number between 0 and 10, then we will ask the user to guess this number within 3 attempts.
+To create the logic, we will use specific functions:
+
+A function isRight(n) that will return a boolean indicating whether the user has the correct answer or not.
+A function guess() that allows a trial; this function will return true or false based on the given response
+*/
 
 function getRandomInt(max) {
   max = Math.floor(max);
@@ -17,7 +20,7 @@ function isRight(n) {
 }
 
 function guess() {
-  const number = prompt('indiquez un nombre') * 1;
+  const number = prompt('Choose a number') * 1;
   return isRight(number);
 }
 
@@ -26,6 +29,6 @@ for (let i = 0; i < 3; i++) {
     console.log('Bravo');
     break;
   } else if (i === 2) {
-    console.log('Vous avez perdu');
+    console.log(`You've lost`);
   }
 }

@@ -1,6 +1,6 @@
 //AVERAGE SCORE AND FILTER
 
-//Exercise taken from the tutorial of [Grafikart](https://grafikart.fr/tutoriels/fonctions-2060)
+//Exercise taken from the tutorial of Grafikart : https://grafikart.fr/tutoriels/fonctions-2060
 
 /*
 In this exercise, we want to modify the following object to add an 'average' property that will contain the average score of each student.

@@ -1,5 +1,5 @@
 //FIND PRIME NUMBER
-//Exercise taken from the tutorial of [Grafikart](https://grafikart.fr/tutoriels/fonctions-2059)
+//Exercise taken from the tutorial of Grafikart : https://grafikart.fr/tutoriels/fonctions-2059
 
 /*Create a function isPrime() that indicates whether a number is prime.*/
 
