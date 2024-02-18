@@ -1,6 +1,8 @@
 // PROFILE LOOKUP
 
-/*The function should check if name is an actual contact's firstName and the given property (prop) is a property of that contact.
+/*Exercice from FreeCodeCamp : 
+
+The function should check if name is an actual contact's firstName and the given property (prop) is a property of that contact.
 
 If both are true, then return the "value" of that property.
 
